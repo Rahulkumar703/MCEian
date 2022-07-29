@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:wght@200;300;400&family=Sora:wght@300;400&family=Space+Grotesk:wght@300;400;600&display=swap');
+
+:root {
+  --grad1: #a2c5fe;
+  --grad2: #c2e9fc;
+  --grad3: #ef9da8;
+  --grad4: #ffdce0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* font-family: 'Great Vibes', cursive; */
+  /* font-family: 'Jost', sans-serif; */
+  font-family: 'Sora', sans-serif;
+  /* font-family: 'Space Grotesk', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
