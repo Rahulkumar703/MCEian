@@ -1,0 +1,23 @@
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title .logo {
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.title .logo img {
+    width: 100%;
+    height: 100%;
+    -webkit-user-drag: none;
+}
+
+.title .title-link {
+    text-decoration: none;
+    color: var(--primary);
+}

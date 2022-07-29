@@ -1,0 +1,16 @@
+.theme {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+ion-icon,
+i {
+    font-size: 1.8rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+ion-icon {
+    font-size: 2.5rem;
+}
