@@ -1,7 +1,12 @@
+@import url(./Responsive.css);
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: var(--light-dark-bg);
     padding: 1rem 2rem;
+    min-height: 8rem;
+    z-index: 5;
+    position: relative;
 }

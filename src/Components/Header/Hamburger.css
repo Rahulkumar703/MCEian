@@ -5,6 +5,7 @@
     justify-content: center;
     cursor: pointer;
     overflow: hidden;
+    display: none;
 }
 
 .hamburger span {

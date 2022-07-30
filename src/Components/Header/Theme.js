@@ -12,11 +12,7 @@ function Theme() {
       document.body.classList.remove('dark');
     }
 
-  }, [isDark])
-  useEffect(() => {
-    setIsDark(window.matchMedia("(prefers-color-scheme: dark)").matches);
-
-  }, [isSystemDark])
+  }, [isDark]);
   return (
     <div className='theme'>
       {isDark ? <ion-icon name="partly-sunny-outline" onClick={() => setIsDark(false)}></ion-icon> : <ion-icon name="cloudy-night-outline" onClick={() => setIsDark(true)}></ion-icon>}

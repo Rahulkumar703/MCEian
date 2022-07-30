@@ -6,13 +6,16 @@ function NavList() {
     return (
         <ul className="nav-list">
             <li className='nav-list-items'>
-                <Link to='/'>Posts</Link>
+                <Link to='/'>
+                    <i className="fi fi-rr-browser"></i>
+                    <p>Posts</p>
+                </Link>
             </li>
             <li className='nav-list-items'>
-                <Link to='/'>Users</Link>
-            </li>
-            <li className='nav-list-items'>
-                <Link to='/'>Profile</Link>
+                <Link to='/'>
+                    <i className="fi fi-rr-users-alt"></i>
+                    <p>Users</p>
+                </Link>
             </li>
         </ul>
     )
